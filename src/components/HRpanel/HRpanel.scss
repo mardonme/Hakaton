@@ -1,0 +1,28 @@
+.hr-panel {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  
+    h2 {
+      text-align: center;
+      color: #6F42C1;
+      margin-bottom: 1rem;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        padding: 0.5rem;
+        border-bottom: 1px solid #eee;
+  
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
